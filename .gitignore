@@ -1,0 +1,6 @@
+index.js
+index.d.ts
+*.map
+node_modules
+*.log
+*.tgz

@@ -1,0 +1,46 @@
+{
+  "name": "use-is-online-react",
+  "version": "1.0.0",
+  "description": "A smart-ish React hook that returns whether the browser is online or not",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "index.js.map",
+    "index.d.ts.map"
+  ],
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dfoverdx/use-is-online-react.git"
+  },
+  "keywords": [
+    "react",
+    "react-hook",
+    "is-online",
+    "useIsOnline",
+    "use-is-online",
+    "react hook",
+    "online",
+    "polling"
+  ],
+  "author": "Bethany Hitch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfoverdx/use-is-online-react/issues"
+  },
+  "homepage": "https://github.com/dfoverdx/use-is-online-react#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.25",
+    "react": "^18.2.0",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  }
+}
