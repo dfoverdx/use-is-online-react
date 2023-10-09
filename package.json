@@ -1,6 +1,6 @@
 {
   "name": "use-is-online-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A smart-ish React hook that returns whether the browser is online or not",
   "main": "index.js",
   "files": [

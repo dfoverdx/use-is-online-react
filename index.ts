@@ -82,6 +82,7 @@ Object.defineProperties(useIsOnline, {
       }
 
       pollInterval = value;
+      return value;
     }
   },
   debug: {
@@ -92,6 +93,8 @@ Object.defineProperties(useIsOnline, {
       } else {
         logDebug = () => { };
       }
+
+      return value;
     }
   }
 });
